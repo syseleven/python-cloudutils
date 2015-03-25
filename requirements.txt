@@ -1,4 +1,4 @@
--e git+git://github.com/syseleven/python-cloudutils-libs#egg=syseleven.cloudutilslibs
+-e git://github.com/syseleven/python-cloudutils-libs#egg=syseleven.cloudutilslibs
 oslo.config
 python-neutronclient
 python-heatclient
