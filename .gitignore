@@ -1,0 +1,12 @@
+*~
+.coverage
+*.pyc
+uitests.xml
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+AUTHORS
+ChangeLog
+.idea/

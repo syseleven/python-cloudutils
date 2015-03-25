@@ -1,0 +1,6 @@
+-e git+git://github.com/syseleven/python-cloudutils-libs#egg=sys11.cloudutilslibs
+oslo.config
+python-neutronclient
+python-heatclient
+python-novaclient
+
