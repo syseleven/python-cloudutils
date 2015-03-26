@@ -20,11 +20,11 @@ from heatclient.exc import (CommandError,
 
 from neutronclient.common.exceptions import NeutronClientException
 
-from sys11.cloudutilslibs.log import start_logging
-from sys11.cloudutilslibs.openstackclients import (get_heat_client,
+from syseleven.cloudutilslibs.log import start_logging
+from syseleven.cloudutilslibs.openstackclients import (get_heat_client,
                                                     get_neutron_client,
                                                     get_nova_client)
-from sys11.cloudutilslibs.utils import (dict_merge,
+from syseleven.cloudutilslibs.utils import (dict_merge,
                                         get_floating_ip_from_heat_nova_neutron)
 from syseleven.cloudutils.scloud.opts import (init_params,
                                             load_additional_config_setion)
