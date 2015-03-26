@@ -19,5 +19,6 @@ import setuptools
 
 setuptools.setup(
         setup_requires = ['pbr', 'mr.bob'],
-        pbr=True
+        pbr=True,
+        dependency_links = ['https://github.com/syseleven/python-cloudutils-libs#egg=syseleven.cloudutilslibs']
         )
