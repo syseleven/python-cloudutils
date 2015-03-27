@@ -8,4 +8,5 @@ uitests.xml
 dist/
 build/
 AUTHORS
+ChangeLog
 .idea/

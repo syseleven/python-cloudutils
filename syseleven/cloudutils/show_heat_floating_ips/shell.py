@@ -3,13 +3,13 @@
 from oslo.config import cfg
 
 import novaclient.exceptions as novaclientexceptions
-from syseleven.cloudutils.openstackclients import (get_heat_client,
+from syseleven.cloudutilslibs.openstackclients import (get_heat_client,
                                                     get_neutron_client,
                                                     get_nova_client)
+from syseleven.cloudutilslibs.log import start_logging
+from syseleven.cloudutilslibs.utils import get_floating_ip_from_heat_nova_neutron
 
-from syseleven.cloudutils.log import start_logging
 from syseleven.cloudutils.show_heat_floating_ips.opts import init_params
-from syseleven.cloudutils.utils import get_floating_ip_from_heat_nova_neutron
 
 
 def main():
