@@ -3,9 +3,10 @@
 import os
 import sys
 import ConfigParser
-
-from oslo.config import cfg
-
+try:
+    from oslo.config import cfg
+except ImportError:
+    from oslo_config import cfg
 
 def init_params():
     """ this functions load all parameter either from

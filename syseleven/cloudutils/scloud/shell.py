@@ -6,7 +6,10 @@ import os
 import json
 import StringIO
 
-from oslo.config import cfg
+try:
+    from oslo.config import cfg
+except ImportError:
+    from oslo_config import cfg
 
 from heatclient.common import utils as heatutils
 from heatclient.common import template_utils
